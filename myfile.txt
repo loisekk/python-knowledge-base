@@ -1,0 +1,23 @@
+season 1 has only 12 episodes go and check it out season 1 has only 12 episodes go and check it out 
+import random 
+def game():
+    print("You are playing the game.. ")
+    score = random.randint(1, 92 )
+    # fetch the Hiscore 
+    with open("Hiscore.txt") as f:
+        Hiscore = f.read()  # at this point all upto at string now 
+        if (Hiscore != ""): #  an empty str "" then convert the whole part in int terms 
+            Hiscore = int (Hiscore)
+        else: #  else there is an str so the f^n is return 0 becoz if condition does'nt work at this point and it return 0 there is no new hiscore 
+            Hiscore =0
+
+    print(f"Your score : {score}")
+    if (score> Hiscore ):# score becomes the new Hiscore 
+        # write this Hiscore to the file 
+        with open("Hiscore.txt","w") as f:
+            f.write(str(score)) # write f^n consider str only 
+    return score 
+game()  
+
+
+"###### will be Axa as another human ######"

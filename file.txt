@@ -1,0 +1,30 @@
+hello yash are you watching chainsaw man 
+watching jujutsu kaisen 
+and now waiting for it's nxt season
+which is culling game arc
+season 1 has only 12 episodes go and check it out 
+
+# import random
+# def game():
+#     print("You are playing the game .. ")
+#     score =  random.randint(1, 95) # randint pick vlaues b/w two int
+#     # fetch the hiscore  
+#     with open ("Hiscore.txt") as f :
+#       Hiscore = f.read() # read function always consider as str 
+#       if (Hiscore != ""):
+#         Hiscore = int(Hiscore) 
+#       else:
+#           Hiscore = 0
+
+#     print(f"Your score : {score}")
+#     if (score>Hiscore):
+#     # write this Hiscore to the file 
+#       with open("Hiscore.txt" , "w") as f:
+#          f.write(str(score))
+
+#     return score       
+          
+# game()
+
+
+###### is not a ###### at all this was once at a time he was a ##### too a ######### 
