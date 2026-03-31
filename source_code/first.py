@@ -1,105 +1,105 @@
 import os
 import numpy as np
-# import pyttsx3
-# engine = pyttsx3.init()
+import pyttsx3
+engine = pyttsx3.init()
 
 
-# print("Numnber a is :", a)
-# print("Numnber b is :", b)
-# print("sum of a and b is ", a+b)
-
-# # --- NumPy Arithmetic Example ---
-# # Create two NumPy arrays
-# array1 = np.array([1, 2, 3, 4])
-# array2 = np.array([10, 20, 30, 40])
-
-# # Add the arrays element-wise
-# sum_array = array1 + array2
-
-# print("--- NumPy Example ---")
-# print(f"Array 1: {array1}")
-# print(f"Array 2: {array2}")
-# print(f"Sum of arrays: {sum_array}")
-
-
-
-# path = "/New folder"  # use your desired path
-# try:
-#     entries = os.listdir(path)
-#     print("Contents of directory:", entries)
-# except FileNotFoundError:
-#     print(f"Error: Directory '{path}' not found.")
-# except PermissionError:
-#     print(f"Error: Permission denied to access '{path}'.")
-# except OSError as e: 
-#     print("OS error:", e)
-
-
-
-
-# a =  int(input("Enter the number of finding the type :")
-# print(type(a))
-
-# a = int(input("Enter the number 1 :")
-# b = int(input("Enter the number 2 :")
-
-# print("a is greter than b ", a>b)
-
-# a = int(int(input("Enter the number :"))
-# print("The square of the no is",a**2)
-
-
-# here  = "print "
-# nameshort = here  [0:2]
-# print (nameshort)
-# character1 = here [1]
-# print(character1)
-
-# here  = "printhhh"
-# print here  [0:2])
-# print here  [2:3])
-# print here  [0:4]) # IF st start ie none then 0 there 
-# print here  [-5:0])# if last is none then length be there
-
-# here  = "printhh"
-# print here [1:3:5])
-
-# print
-# a = int( int(input("Enter the number 1 : "))
-# b =  int (int(input("Enter the number 2 :"))
-# print("Numnber a is :", a)
-# print("Numnber b is :", b)
-# print("sum of a and b is ", a+b)
+print("Numnber a is :", a)
+print("Numnber b is :", b)
+print("sum of a and b is ", a+b)
 
 # --- NumPy Arithmetic Example ---
 # Create two NumPy arrays
-# array1 = np.array([1, 2, 3, 4])
-# array2 = np.array([10, 20, 30, 40])
+array1 = np.array([1, 2, 3, 4])
+array2 = np.array([10, 20, 30, 40])
 
 # Add the arrays element-wise
-# sum_array = array1 + array2
+sum_array = array1 + array2
 
-# here  =  int(input("Enter your here  : ")
-# print(f" hello you are MVP ,  here }")
-
-# print("--- NumPy Example ---")
-# print(f"Array 1: {array1}")
-# print(f"Array 2: {array2}")
-# print(f"Sum of arrays: {sum_array}")
+print("--- NumPy Example ---")
+print(f"Array 1: {array1}")
+print(f"Array 2: {array2}")
+print(f"Sum of arrays: {sum_array}")
 
 
-# here  = ''' Dear <|NAME|> you are the strongest scorccer in modern age <|DATE|>'''
-# print here .replace ("<|NAME|>","yuji").replace("<|DATE|>", "08 April 2025"))
 
-# here  = "print is a good boy"
-# print here .find("  "))
-# here  = "print is a good  boy"
-# print here .replace ("  ", " "))# does not change the main string they will change in new stirng  and print 
+path = "/New folder"  # use your desired path
+try:
+    entries = os.listdir(path)
+    print("Contents of directory:", entries)
+except FileNotFoundError:
+    print(f"Error: Directory '{path}' not found.")
+except PermissionError:
+    print(f"Error: Permission denied to access '{path}'.")
+except OSError as e: 
+    print("OS error:", e)
 
-# print here )# string are immutable which mean you can not change them  during ruinnning function on  them   
 
-# letter = "Dear yuji\n\t you are  the user of \"domain expansion."  
-# print(letter)
+
+
+a =  int(input("Enter the number of finding the type :")
+print(type(a))
+
+a = int(input("Enter the number 1 :")
+b = int(input("Enter the number 2 :")
+
+print("a is greter than b ", a>b)
+
+a = int(int(input("Enter the number :"))
+print("The square of the no is",a**2)
+
+
+here  = "print "
+nameshort = here  [0:2]
+print (nameshort)
+character1 = here [1]
+print(character1)
+
+here  = "printhhh"
+print here  [0:2])
+print here  [2:3])
+print here  [0:4]) # IF st start ie none then 0 there 
+print here  [-5:0])# if last is none then length be there
+
+here  = "printhh"
+print here [1:3:5])
+
+print
+a = int( int(input("Enter the number 1 : "))
+b =  int (int(input("Enter the number 2 :"))
+print("Numnber a is :", a)
+print("Numnber b is :", b)
+print("sum of a and b is ", a+b)
+
+--- NumPy Arithmetic Example ---
+Create two NumPy arrays
+array1 = np.array([1, 2, 3, 4])
+array2 = np.array([10, 20, 30, 40])
+
+Add the arrays element-wise
+sum_array = array1 + array2
+
+here  =  int(input("Enter your here  : ")
+print(f" hello you are MVP ,  here }")
+
+print("--- NumPy Example ---")
+print(f"Array 1: {array1}")
+print(f"Array 2: {array2}")
+print(f"Sum of arrays: {sum_array}")
+
+
+here  = ''' Dear <|NAME|> you are the strongest scorccer in modern age <|DATE|>'''
+print here .replace ("<|NAME|>","yuji").replace("<|DATE|>", "08 April 2025"))
+
+here  = "print is a good boy"
+print here .find("  "))
+here  = "print is a good  boy"
+print here .replace ("  ", " "))# does not change the main string they will change in new stirng  and print 
+
+print here )# string are immutable which mean you can not change them  during ruinnning function on  them   
+
+letter = "Dear yuji\n\t you are  the user of \"domain expansion."  
+print(letter)
 # print = 
 
 '''             LIST '''
