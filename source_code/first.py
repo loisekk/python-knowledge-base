@@ -109,93 +109,93 @@ import numpy as np
 # string are non mutable called no change 
 # stored elements in Hetrogenous form'''
 
-# friend = ["print", "satoru", 0 , 0.254 , False  ]  # lists like arr can be change called muitable 
-# print (friend) #  if the change is they don't create a new list # list are mutable called change 
-# friend[0] = "satoru" #  if Change  apply they create a new string # string are non mutable called no change 
-# print(friend[0])
-# friend.append ( "gojo") 
+friend = ["print", "satoru", 0 , 0.254 , False  ]  # lists like arr can be change called muitable 
+print (friend) #  if the change is they don't create a new list # list are mutable called change 
+friend[0] = "satoru" #  if Change  apply they create a new string # string are non mutable called no change 
+print(friend[0])
+friend.append ( "gojo") 
 
-# L1 = [2, 4, 6,1,8,5 ]
-# L1.sort()
-# print(L1)
-# L1.reverse()
-# print(L1)
-# L1.append(95)
-# print(L1)
-# L1.pop(5)
-# print(L1)
-# value = L1.pop(5)
-# print(value)
-# L1.insert(4 , 95)
-# print(L1)
-# L1.remove(95)
-# print(L1)
+L1 = [2, 4, 6,1,8,5 ]
+L1.sort()
+print(L1)
+L1.reverse()
+print(L1)
+L1.append(95)
+print(L1)
+L1.pop(5)
+print(L1)
+value = L1.pop(5)
+print(value)
+L1.insert(4 , 95)
+print(L1)
+L1.remove(95)
+print(L1)
 
-# a = (1,2, 4564, 653, ":", "print")
-# print(type(a))
-# a[0] = 445
-# print(a) # tuple function  can not be change as same as string
+a = (1,2, 4564, 653, ":", "print")
+print(type(a))
+a[0] = 445
+print(a) # tuple function  can not be change as same as string
 
-# my_tuple = (1,2,3,3,5)
-# no = my_tuple.count(3)
-# print(no)
+my_tuple = (1,2,3,3,5)
+no = my_tuple.count(3)
+print(no)
 
-# no1 = my_tuple.index(3)
-# print(no1)
-# tuple1 = (1,2,3)
-# tuple2 = (4,5,6,)
-# concatinated = tuple1 + tuple2
-# print(concatinated)
+no1 = my_tuple.index(3)
+print(no1)
+tuple1 = (1,2,3)
+tuple2 = (4,5,6,)
+concatinated = tuple1 + tuple2
+print(concatinated)
 
-# tuple1 = (1,2,3)
-# tuple2 = (4,5,6,)
-# print(tuple1*3 , tuple2*3)
+tuple1 = (1,2,3)
+tuple2 = (4,5,6,)
+print(tuple1*3 , tuple2*3)
 
-# my_tuple = (2,3,4,5,6)
-# print(len(my_tuple))
+my_tuple = (2,3,4,5,6)
+print(len(my_tuple))
 
-# my_tuple = (2,3,4,5,6)
-# print(max(my_tuple))
-# print(min(my_tuple))
-# print(sum(my_tuple))
+my_tuple = (2,3,4,5,6)
+print(max(my_tuple))
+print(min(my_tuple))
+print(sum(my_tuple))
 
-# Write a program to stora seven marks in list entered by a user 
+Write a program to stora seven marks in list entered by a user 
 
-# marks =[]
+marks =[]
 
-# F1 = int(input("Enter the marks here  :" )
-# marks.append(F1)
-# F2 = int(input("Enter the marks here  :" )
-# marks.append(F2)
-# F3 = int(input("Enter the marks here  :" )
-# marks.append(F3)
-# F4 = int(input("Enter the marks here  :" )
-# marks.append(F4)
-# F5 = int(input("Enter the marks here  :" )
-# marks.append(F5)
-# F6 = int(input("Enter the marks here  :" )
-# marks.append(F6)
-# F7 = int(input("Enter the marks here  :" )
-# marks.append(F7)
+F1 = int(input("Enter the marks here  :" )
+marks.append(F1)
+F2 = int(input("Enter the marks here  :" )
+marks.append(F2)
+F3 = int(input("Enter the marks here  :" )
+marks.append(F3)
+F4 = int(input("Enter the marks here  :" )
+marks.append(F4)
+F5 = int(input("Enter the marks here  :" )
+marks.append(F5)
+F6 = int(input("Enter the marks here  :" )
+marks.append(F6)
+F7 = int(input("Enter the marks here  :" )
+marks.append(F7)
 
-# print(marks)
+print(marks)
 
-# write a program to accepts marks of 6 students and display them in a sorted manner
+write a program to accepts marks of 6 students and display them in a sorted manner
 
-# marks =[]
+marks =[]
 
-# F1 = int(input("Enter the marks here  :" ))
-# marks.append(F1)
-# F2 = int(input("Enter the marks here  :" ))
-# marks.append(F2)
-# F3 = int(input("Enter the marks here  :" ))
-# marks.append(F3)
-# F4 = int(input("Enter the marks here  :" ))
-# marks.append(F4)
-# F5 = int(input("Enter the marks here  :" ))
-# marks.append(F5)
-# F6 = int(input("Enter the marks here  :" ))
-# marks.append(F6)
+F1 = int(input("Enter the marks here  :" ))
+marks.append(F1)
+F2 = int(input("Enter the marks here  :" ))
+marks.append(F2)
+F3 = int(input("Enter the marks here  :" ))
+marks.append(F3)
+F4 = int(input("Enter the marks here  :" ))
+marks.append(F4)
+F5 = int(input("Enter the marks here  :" ))
+marks.append(F5)
+F6 = int(input("Enter the marks here  :" ))
+marks.append(F6)
 
 
 
@@ -221,98 +221,98 @@ print(d)
 
 # 2. popitem()
 
-# # marks.sort()
-# # print(marks)
-# d = {} # empty dicitionary
-# ya = [3,4,5,6,6,]
-# print(sum(ya))
+# marks.sort()
+# print(marks)
+d = {} # empty dicitionary
+ya = [3,4,5,6,6,]
+print(sum(ya))
 
-# ya1 = [3,4,5,6,6,]
-# n = ya.count(6)
-# print(n)
+ya1 = [3,4,5,6,6,]
+n = ya.count(6)
+print(n)
 
-# marks =  {
-#  "print": 100,
-#  "goku" : 56,
-#  "satoru" : 100,
-#  "naruto" : 45,
-#  0: "mark "
-# }
-# # print(type(marks))
-# # print(marks)
-# # print(marks.items())
-# # print(marks.keys())
-# # print(marks.values())
+marks =  {
+ "print": 100,
+ "goku" : 56,
+ "satoru" : 100,
+ "naruto" : 45,
+ 0: "mark "
+}
+print(type(marks))
+print(marks)
+print(marks.items())
+print(marks.keys())
+print(marks.values())
 
-# # marks.update({"print":99})
-# # print(marks)
-# # print(marks.get("print1")) #print none # it returns the value of keys if keys if not in dict then return default 
-# # print(marks["print1"]) # returns an  error
+marks.update({"print":99})
+print(marks)
+print(marks.get("print1")) #print none # it returns the value of keys if keys if not in dict then return default 
+print(marks["print1"]) # returns an  error
 
-# # print(marks.clear())
+print(marks.clear())
 
-# new_marks = marks.copy() # for creating a new dict and prvious must be  copy and replaced with new
-# print(new_marks) 
-# keys = [ 'a','b','c']
-# new_marks = dict.fromkeys(keys) # for printing keys and it returns 0 
-# print(new_marks)
+new_marks = marks.copy() # for creating a new dict and prvious must be  copy and replaced with new
+print(new_marks) 
+keys = [ 'a','b','c']
+new_marks = dict.fromkeys(keys) # for printing keys and it returns 0 
+print(new_marks)
 
-# dict.popitem(new_marks) # follw LIFO means left in first out that removes and returns the ( keys ,values) and pair from the dictionary  
-# dict.pop(marks[ 0])
-# dict.setdefault() 
+dict.popitem(new_marks) # follw LIFO means left in first out that removes and returns the ( keys ,values) and pair from the dictionary  
+dict.pop(marks[ 0])
+dict.setdefault() 
 
     # sets 
  
-# s = {3,4,5,6,7}
-# y = { 3,4,5,6,6 ,7,7} # Sets only consider one time value 
-# print(y)
-# s.add(566)
-# print(s ,type(s) ) 
+s = {3,4,5,6,7}
+y = { 3,4,5,6,6 ,7,7} # Sets only consider one time value 
+print(y)
+s.add(566)
+print(s ,type(s) ) 
 
-# e = set() # Don't use s ={} as it will create an empty dicitoinary
+e = set() # Don't use s ={} as it will create an empty dicitoinary
  
 
    # union and  intersection 
-# s1 = {3,4,5,6,7}
-# s2 = { 3,4,5,6,6 ,7,7}
+s1 = {3,4,5,6,7}
+s2 = { 3,4,5,6,6 ,7,7}
 
-# print(s1.union(s2))
-# print(s1.intersection(s2))
-# print(s1.difference(s2))
-# print(s1.issubset(s2))
-# print(s1.issuperset(s2))
+print(s1.union(s2))
+print(s1.intersection(s2))
+print(s1.difference(s2))
+print(s1.issubset(s2))
+print(s1.issuperset(s2))
 
  # write a program to create a dicitinary of hindi words with  value as their english translastion . provide a user with an option to look it up 
 
-# words = {
-#     "kam " :" work",
-#     "madad": "help",
-#     "kitab": "book",
-#     "kela": "banana",
-#     "lakdi": "wood"
+words = {
+    "kam " :" work",
+    "madad": "help",
+    "kitab": "book",
+    "kela": "banana",
+    "lakdi": "wood"
 
-# }
-# word = input("Enter the meaning of word you want :")
-# print(words[word])
+}
+word = input("Enter the meaning of word you want :")
+print(words[word])
 
-# write a program to input 8 numbers from the user and  display all the unique numbers (once)
+write a program to input 8 numbers from the user and  display all the unique numbers (once)
 
-# s= set()
+s= set()
 
-# n = int(input( "Enter the  number :"))
-# s.add(int(n)) 
-# n = int(input( "Enter the  number :"))
-# s.add(int(n)) 
-# n = int(input( "Enter the  number :"))
-# s.add(int(n)) 
-# n = int(input( "Enter the  number :"))
-# s.add(int(n)) 
-# n = int(input( "Enter the  number :"))
-# s.add(int(n)) 
-# n = int(input( "Enter the  number :"))
-# s.add(int(n)) 
-# n = int(input( "Enter the  number :"))
-# s.add(int(n)) 
-# n = int(input( "Enter the  number :"))
-# s.add(int(n)) 
-# print(s)
+n = int(input( "Enter the  number :"))
+s.add(int(n)) 
+n = int(input( "Enter the  number :"))
+s.add(int(n)) 
+n = int(input( "Enter the  number :"))
+s.add(int(n)) 
+n = int(input( "Enter the  number :"))
+s.add(int(n)) 
+n = int(input( "Enter the  number :"))
+s.add(int(n)) 
+n = int(input( "Enter the  number :"))
+s.add(int(n)) 
+n = int(input( "Enter the  number :"))
+s.add(int(n)) 
+n = int(input( "Enter the  number :"))
+s.add(int(n)) 
+print(s)
