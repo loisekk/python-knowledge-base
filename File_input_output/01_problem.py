@@ -1,15 +1,15 @@
-'''f = open("file.txt" , "r")
+f = open("file.txt" , "r")
 # data = f.read()
 print(f)
-f.close()'''
+f.close()
 
 
-'''st = "season 1 has only 12 episodes go and check it out "
+st = "season 1 has only 12 episodes go and check it out "
 f = open("myfile.txt", "rt")
 f.close()
-'''
 
-'''f = open ("file.txt")
+
+f = open ("file.txt")
 lines = f.readlines()
 print(lines , type(lines ))
 
@@ -32,18 +32,18 @@ line = f.readline() # using " line = f.readlines() " this move can run the progr
 while(line != ""):
     print(line )
     line = f.readline() # using " lines = f.readlines() " this move can run the program ifinitely 
-f.close()'''
+f.close()
 
 
-'''f = open("file.txt")
+f = open("file.txt")
 print(f.read())
 
-f.close()'''
+f.close()
 
 # The same can be written using with statement like this :
 
-'''with open("file.txt") as  f:
-    print(f.read())'''
+with open("file.txt") as  f:
+    print(f.read())
 # You don't have to explicity close the file    
 
 
@@ -51,24 +51,24 @@ f.close()'''
 contains the word 'jujutsu'. '''
 
 
-'''with open("porem.txt") as f:
+with open("porem.txt") as f:
     if "jujutsu" in f.read():
         print("jujutsu is present in the file ")
     else:
         print ("jujutsu is  not present in the file ")
-'''
 
-'''
+
+
 The game() function in a program lets a user play a game and returns the score as an
 integer. You need to read a file 'Hi-score.txt' which is either blank or contains the
 previous Hi-score. You need to write a program to update the Hi-score whenever the
 game() function breaks the Hi-score.
 
-'''
 
 
 
-'''import random 
+
+import random 
 def game():
     print("You are playing the game.. ")
     score = random.randint(1, 92 )
@@ -85,7 +85,7 @@ def game():
         # write this Hiscore to the file 
         with open("Hiscore.txt","w") as f:
             f.write(str(score)) # write f^n consider str only 
-    return score '''
+    return score 
 
 
 ''''
@@ -127,7 +127,7 @@ for i  in range(2,21):
 
  # solving this with if else stat:
 
-'''word = "Donkey"
+word = "Donkey"
 with open ("file.txt", "r") as f:
     f.read()
 newlines = []
@@ -138,7 +138,7 @@ for line in newlines :
           line = line.replace("Donkey", "######") 
 
  else : line = line 
- print("word not found")'''
+ print("word not found")
 
 
 
