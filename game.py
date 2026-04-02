@@ -30,5 +30,5 @@ while True :
          print("you were above the number ⬆️")
    else:
          print("you were below the number ⬇️")
-
+       
 print(f"YOU GOT it in {guesses} guesses pretty much hilirious 😵‍💫")
