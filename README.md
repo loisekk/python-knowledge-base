@@ -1,8 +1,14 @@
 <div align="center">
 
-# 🐍 Python Knowledge Base
+<!-- Animated top wave banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3776AB,100:FFD43B&height=220&section=header&text=Python%20Knowledge%20Base&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=From%20Fundamentals%20to%20OOP%20%7C%20Built%20by%20Yash%20Brahmankar&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
 
-**A complete Python learning repository — from fundamentals to OOP and File I/O**
+<!-- Animated typing subtitle -->
+<a href="https://github.com/loisekk">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=3776AB&center=true&vCenter=true&width=600&lines=Learning+Python+one+commit+at+a+time+%F0%9F%90%8D;Lists+%7C+Dicts+%7C+OOP+%7C+File+I%2FO+%7C+Algorithms;Built+from+scratch+%E2%80%94+no+shortcuts%2C+pure+practice." alt="Typing SVG" />
+</a>
+
+<br/>
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Topics](https://img.shields.io/badge/Topics-10+-blueviolet?style=for-the-badge)](#topics-covered)
@@ -153,3 +159,6 @@ This repository is licensed under the [MIT License](LICENSE).
 <div align="center">
   <sub>Built with consistency, curiosity, and a lot of <code>print()</code> statements.</sub>
 </div>
+
+<!-- Animated bottom wave footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD43B,100:3776AB&height=120&section=footer" width="100%"/>
